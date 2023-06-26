@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contato</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="adicionar-contato">
+            <form id="form-adc-contato">
+                <h2>Adicionar contato</h2>
+                <h3>Nome</h3>
+                <input type="text" id="nome-contato" placeholder="Nome do contato" required>
+                <h3>Telefone</h3>
+                <input type="tel" id="tel-contato" placeholder="Número do contato" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+    <div class="listagem">
+        <h2>Lista de contato</h2>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome do contato</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
